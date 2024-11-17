@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo del día</title>
+    <link rel="stylesheet" href="styles_view_article.css"> <!-- Enlace al CSS existente -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery para AJAX -->
+    <script src="view_article.js"></script> <!-- Archivo JS -->
+</head>
+<body>
+    <div class="container">
+        <h2>Artículo del día</h2>
+        <div class="info">
+            <p><strong>Autor:</strong> <span id="author">Nombre del Autor</span></p>
+            <p><strong>Título:</strong> <span id="title">Título del Artículo</span></p>
+            <p><strong>Tema:</strong> <span id="topic">Tema Seleccionado</span></p>
+        </div>
+        <div class="content">
+            <p><strong>Contenido del artículo:</strong></p>
+            <p id="content">Aquí se muestra el contenido del artículo...</p>
+        </div>
+        <div class="comments">
+            <p><strong>Comentarios:</strong></p>
+            <p id="comments">Comentarios sobre el artículo...</p>
+        </div>
+        <div class="image-display">
+            <p><strong>Imagen Ilustrativa:</strong></p>
+            <img id="article-image" src="" alt="Imagen del artículo">
+        </div>
+
+        <!-- Botón para regresar a themes.html -->
+        <div class="back-button">
+            <button onclick="window.location.href='themes.html'">Regresar a los Temas</button>
+        </div>
+    </div>
+</body>
+</html>

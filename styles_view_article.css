@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+    border-top: 4px solid #4CAF50;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.info p, .content p, .comments p {
+    margin: 10px 0;
+    color: #333;
+}
+
+.info p strong, .content p strong, .comments p strong {
+    color: #4CAF50;
+}
+
+.image-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-display p {
+    text-align: left;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.image-display img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Estilo para el botón de regresar */
+.back-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button button:hover {
+    background-color: #45a049;
+}
+
+.back-button button:focus {
+    outline: none;
+}

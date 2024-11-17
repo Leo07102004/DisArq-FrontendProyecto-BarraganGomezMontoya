@@ -3,31 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seleccionar Temas</title>
+    <title>Seleccionar Tema</title>
     <link rel="stylesheet" href="styles_themes.css"> <!-- Enlace al CSS -->
 </head>
 <body>
     <header>
         <h1>Selecciona un Tema</h1>
     </header>
+
     <div class="container">
         <div class="topic">
-            <img src="https://via.placeholder.com/100" alt="Deportes">
-            <p>Deportes</p>
+            <a href="view_article.html?tema=Deportes">
+                <img src="recursos/deportes.jpg" alt="Deportes">
+                <p>Deportes</p>
+            </a>
         </div>
         <div class="topic">
-            <img src="https://via.placeholder.com/100" alt="Videojuegos">
-            <p>Videojuegos</p>
+            <a href="view_article.html?tema=Videojuegos">
+                <img src="recursos/videojuegos.jpg" alt="Videojuegos">
+                <p>Videojuegos</p>
+            </a>
         </div>
         <div class="topic">
-            <img src="https://via.placeholder.com/100" alt="Carros">
-            <p>Carros</p>
+            <a href="view_article.html?tema=Personajes">
+                <img src="recursos/personajes.jpg" alt="Personajes">
+                <p>Personajes</p>
+            </a>
         </div>
         <div class="topic">
-            <img src="https://via.placeholder.com/100" alt="Noticias">
-            <p>Noticias</p>
+            <a href="view_article.html?tema=Comidas">
+                <img src="recursos/comidas.jpg" alt="Comidas">
+                <p>Comidas</p>
+            </a>
         </div>
-        <!-- Agrega más después de decidir más temas -->
     </div>
+
+    <!-- Botón para cerrar sesión -->
+    <div class="actions">
+        <button class="action-button" id="logout">Cerrar Sesión</button>
+    </div>
+    <script src="themes.js"></script> <!-- Archivo JS para funcionalidad -->
 </body>
 </html>
